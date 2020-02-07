@@ -32,13 +32,13 @@ Yelp has become very useful app now a days to serach for almost all utility. Thi
 [Dataset is available here :](https://www.yelp.com/dataset/challenge)
 This dataset contains 6668738 reiews from 179974 different businesses. So if we consider useful count 0 as not useful review and useful count >=1 as useful review than distribution of useful and not useful review out of 6668738 reviews is as below:
 ​
-![Image description](datasets/image/total_business_usefulness_review.jpg)
+![Image description](image/total_business_usefulness_review.jpg)
 ​
 ​
 For this project from 1489 indian restaurants in USA, 79767 reviews are extracted from json file using pypark. So if we consider useful count 0 as not useful review and useful count >=1 as useful review than distribution of useful and not useful review out of 79767 reviews is as below:
 ​
 ​
-![Image description](datasets/image/indian_resto_usefulness_review.jpg)
+![Image description](image/indian_resto_usefulness_review.jpg)
 ​
 ​
 Data are taken from 2 files review.json and business.json, following columns are used for this project:
@@ -77,18 +77,18 @@ business file columns
 ​
 # Number of words and number of reviews distribution
 ​
-![Image description](datasets/image/thresold6.jpg)
+![Image description](image/thresold6.jpg)
 ​
 ​
 # Modle selection and ROC curve
 ​
 Using over and under sampling
 ​
-![Image description](datasets/image/roc_curve_tfidf_thresold_3.png)
+![Image description](image/roc_curve_tfidf_thresold_3.png)
 ​
 Using 2-gram 
 ​
-![Image description](datasets/image/2_gram_roc_useful_cool_funny_feature1000.jpg)
+![Image description](image/2_gram_roc_useful_cool_funny_feature1000.jpg)
 ​
 ​
 ​
