@@ -61,17 +61,37 @@ business file columns
 ​
 ​
 # Modle selection and ROC curve
+
+ROC for thresold 1 without over or under sampling:
+
+![Image description](image/roc_curve_tfidf_thresold_3.png)
+
 ​
-Using over and under sampling
+Using over and under sampling and keeping thresold 6 for useful and not useful distribution.
 ​
 ![Image description](image/roc_curve_tfidf_thresold_3.png)
+
+ROC curve for validation test shows good performance, but it gave only 40% F1 score on acual test data.
 ​
+
+Adding more features for distribition of useful and not useful gave balanced data but did not help improve performance.
+
+![Image description](image/2_gram_roc_useful_cool_funny_feature1000.jpg)
+
+Using n gram if it can help improve performnce, bit it did not work.
+
 Using 2-gram 
 ​
 ![Image description](image/2_gram_roc_useful_cool_funny_feature1000.jpg)
 ​
+​Using 3-gram 
 ​
-​
+![Image description](image/2_gram_roc_useful_cool_funny_feature1000.jpg)
+
+
+# Conclusion
+
+Need to explore more features to make distribution better in order to improve over all performance.
 ​
 ​
 ​
