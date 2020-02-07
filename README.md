@@ -1,24 +1,7 @@
-# yelp-review-usefulness-prediction
-This project is about predicting usefulness of review written by different customers.
 
-Jupyter Notebook
-readme.md
-Last Checkpoint: 12 hours ago
-(autosaved)
-Current Kernel Logo
-Python 3 
-File
-Edit
-View
-Insert
-Cell
-Kernel
-Widgets
-Help
 
 ## Yelp review usefullness prediction
 ​
-## By Purvi Joshi
 ​
 # Overview : 
 ​
