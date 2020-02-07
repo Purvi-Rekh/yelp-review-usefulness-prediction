@@ -23,7 +23,7 @@ For this project from 1489 indian restaurants in USA, 79767 reviews are extracte
 ​
 ![Image description](image/indian_resto_usefulness_review.jpg)
 ​
-​
+Code for extrating required tables and required columns is in file: data_extract_spark_.py
 Data are taken from 2 files review.json and business.json, following columns are used for this project:
 ​
 review file columns
@@ -46,9 +46,6 @@ business file columns
 ​
 # EDA
 ​
-# Data Cleaning
-- Filling missing values in pros and cons
-- Convert pros and cons from object data type to string
     
 # Feature selection
 ##### Performed following steps to select most frequent words from pros and cons:
